@@ -1,6 +1,7 @@
 body{
     background-color: rgb(247, 247, 247);
 }
+
 .header{
     background-color: rgba(0, 0, 0, 1);
     width: auto;
@@ -136,6 +137,7 @@ content: "";
 }
 .Applying {
  background-color: white;
+ margin-bottom: -2%;
  width: 1200px;
     margin-right: 100px;
     text-align: center;
@@ -144,27 +146,98 @@ content: "";
 }
 
 .Applying h2{
-font-size: 20px;
+    font-size: 20px;
 }
+
+
 .cards{
+    background-color: white;
     display: flex;
-    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    justify-content: space-between; 
+}
+
+
+.card{
+    height: 100%;
+    margin: 50px;
     background-image: url(/images/Group\ image\ 1.jpg);
     background-repeat: no-repeat;
-    height: 400px;
+    flex: 0 0 350px;
+    cursor: pointer;
  }
  
- .card{
-     flex: 0 0 300px;
-     background: rgba(255, 234, 130, 0.82);
-     overflow: hidden;
-     height: 100%;
-     z-index: 2;
+ .card:hover{
+background-color: none;
+
  }
- 
- .text{
-  color: black;
+
+ .card1{
+    background: rgba(255, 234, 130, 0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    }
+    
+    .card2{
+        height: 100%;
+        margin: 50px;
+        background-image: url(/images/Group\ image\ 2.jpg);
+        background-repeat: no-repeat;
+        flex: 0 0 350px;
+        cursor: pointer;
+     }
+     .card3{
+        height: 100%;
+        margin: 50px;
+        background-image: url(/images/Group\ image\ 3.jpg);
+        background-repeat: no-repeat;
+        flex: 0 0 350px;
+        cursor: pointer;
+     }
+     .card4{
+        height: 100%;
+        margin: 50px;
+        background-image: url(/images/Group\ image\ 4.jpg);
+        background-repeat: no-repeat;
+        flex: 0 0 350px;
+        cursor: pointer;
+     }
+     .card5{
+        height: 100%;
+        margin: 50px;
+        background-image: url(/images/Group\ image\ 5.jpg);
+        background-repeat: no-repeat;
+        flex: 0 0 350px;
+        cursor: pointer;
+     }
+     .card6{
+        height: 100%;
+        margin: 50px;
+        background-image: url(/images/Group\ image\ 6.jpg);
+        background-repeat: no-repeat;
+        flex: 0 0 350px;
+        cursor: pointer;
+     }
+
+
+.text{
+  color: rgb(0, 0, 0);
   padding-top: 20px;
   text-align: center;
  }
+ .annual{
+    background-color: rgb(232, 232, 232);
+    width: 60%;
+    height: 300px;
+    margin-left: 150px;
+    }
+.center{
+    margin: 50px;
+    }
+
+
+ 
+ 
  
