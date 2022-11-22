@@ -147,21 +147,20 @@ content: "";
 
 .Applying h2{
     font-size: 20px;
+    background-color: white;
 }
 
 
 .cards{
+height: 100%;
     background-color: white;
     display: flex;
-    height: 100%;
     overflow: hidden;
     justify-content: space-between; 
 }
 
-
 .card{
     height: 100%;
-    margin: 50px;
     background-image: url(/images/Group\ image\ 1.jpg);
     background-repeat: no-repeat;
     flex: 0 0 350px;
@@ -178,19 +177,20 @@ background-color: none;
     overflow: hidden;
     height: 100%;
     z-index: 2;
+height: 350px;
     }
     
     .card2{
         height: 100%;
-        margin: 50px;
         background-image: url(/images/Group\ image\ 2.jpg);
+        overflow-y: hidden;
         background-repeat: no-repeat;
         flex: 0 0 350px;
         cursor: pointer;
      }
      .card3{
         height: 100%;
-        margin: 50px;
+       overflow: hidden;
         background-image: url(/images/Group\ image\ 3.jpg);
         background-repeat: no-repeat;
         flex: 0 0 350px;
@@ -198,7 +198,7 @@ background-color: none;
      }
      .card4{
         height: 100%;
-        margin: 50px;
+        overflow: hidden;
         background-image: url(/images/Group\ image\ 4.jpg);
         background-repeat: no-repeat;
         flex: 0 0 350px;
@@ -206,36 +206,56 @@ background-color: none;
      }
      .card5{
         height: 100%;
-        margin: 50px;
+        overflow-y: hidden;
         background-image: url(/images/Group\ image\ 5.jpg);
         background-repeat: no-repeat;
         flex: 0 0 350px;
         cursor: pointer;
      }
+
      .card6{
         height: 100%;
-        margin: 50px;
+        overflow: hidden;
         background-image: url(/images/Group\ image\ 6.jpg);
         background-repeat: no-repeat;
         flex: 0 0 350px;
         cursor: pointer;
      }
 
-
 .text{
   color: rgb(0, 0, 0);
   padding-top: 20px;
   text-align: center;
  }
+.color{
+background-color: white;
+}
+
  .annual{
     background-color: rgb(232, 232, 232);
-    width: 60%;
-    height: 300px;
-    margin-left: 150px;
+    width: 65%;
+    height: 200x;
+    margin-left: 250px;
     }
+   
+    .annual p{
+        font-size: medium;
+        padding-left: 30px;
+    }
+
+    .annual h2{
+padding-left: 30px;
+padding-top: 30px;
+   font-size: large;
+   text-align: center;
+}
+
 .center{
+    background-color: white;
     margin: 50px;
+    margin-left: 100px;
     }
+
 
 
  
