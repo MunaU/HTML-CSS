@@ -273,6 +273,81 @@ padding-top: 30px;
     margin-left: 100px;
     }
 
+    .bottomimage img{
+        width: 1000px;
+        margin-left: 10px;
+    }
+
+    .yheader{
+     background-color: black;
+    }
+   
+    .blackheader{
+    background-color: black;
+        height: 520px;
+        width: auto;
+    }
+
+    .contact{
+        color: white;
+        padding-top: 80px;
+        padding-left: 30px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .endinfo{
+        color: white;
+        padding-left: 30px;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .aplicationdeadline{
+        color: white;
+        padding-left: 300px;
+        margin-top: -286px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .endinfo2{
+        padding-left: 300px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+    .moreresources{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 660px;
+        margin-top: -310px;
+    }
+    .lastlist{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 660px;
+    }
+    .social{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 660px;
+       margin-top: 50px;
+    }
+    .facebook{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 660px;
+       margin-top: 20px;
+    }
+    .Twitter{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 660px;
+       margin-top: 20px;
+    }
+    .socialmedia{
+        padding-left: 600px;
+        margin-top: -80px;
+        width: 50px;
+        height: 90px;
+    }
 
 
  
